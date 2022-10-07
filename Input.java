@@ -12,8 +12,12 @@ public class Input {
 
         System.out.println("What's your name?");
         String name = scan.nextLine();
-        scan.close();
+        System.out.println("Hi " + name + "!");
 
-        System.out.print("Hi " + name + "!");
+        System.out.println("What's your age?");
+        Integer age = scan.nextInt();
+        System.out.println("You're " + age + " years old!");
+
+        scan.close();
     }
 }
